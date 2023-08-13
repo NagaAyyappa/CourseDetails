@@ -1,0 +1,58 @@
+.home-container {
+  padding: 30px;
+}
+
+.heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.failure-view-image {
+  height: 250px;
+  width: 350px;
+}
+
+.failure-heading {
+  color: #475569;
+  font-family: 'Roboto';
+}
+
+.failure-para {
+  color: #64748b;
+  font-family: 'Roboto';
+}
+
+.failure-retry-button {
+  background-color: #4656a1;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+
+.unordered-list {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
